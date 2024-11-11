@@ -1,15 +1,15 @@
 if __name__ == '__main__':
-#     age = 11
-#     la_con_nit = False
-#
-#     if age < 10:
-#         la_con_nit = True
-#     if la_con_nit:
-#         print("con nit")
-#     elif age<18:
-#         print("trau tre")
-#     else:
-#         print("nguoi lon")
+    # age = 11
+    # la_con_nit = False
+    #
+    # if age < 10:
+    #     la_con_nit = True
+    # if la_con_nit:
+    #     print("con nit")
+    # elif age<18:
+    #     print("trau tre")
+    # else:
+    #     print("nguoi lon")
 
     gender_input = input("Are you male (yes/no):")
     is_male = None
@@ -33,7 +33,8 @@ if __name__ == '__main__':
     elif is_male == False:
             if height_feet > 5.7:
                 print("you are tall as a girl")
-            else:
+            elif height_feet
                 print("you are short as a girl")
+
     else:
         print("system error:Variable'is_male' is not correct")
